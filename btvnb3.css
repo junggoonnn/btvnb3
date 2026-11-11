@@ -1,0 +1,26 @@
+.hero {
+  background-image: url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=1000');
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+}
+
+.posts article {
+  background-color: lightpink; 
+}
+
+.posts article + article {
+  background-color: transparent;
+}
+
+article h3 + p {
+  background-color: #fffbeb;
+}
+
+nav a {
+  font-size: 16px;
+}
+
+nav a.active {
+  font-size: 22px;
+}
